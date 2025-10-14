@@ -9,5 +9,8 @@ libreoffice
 
 ;phoronix test installs
 
-sudo phoronix-test-suite batch-install encode-flac byte primesieve unvanquished j2dbench compress-7zip libreoffice unpack-linux stream blogbench cassandra pybench sysbench intel-mpi openssl stress-ng apache c-ray supertuxkart 
+sudo phoronix-test-suite batch-install encode-flac byte primesieve unvanquished j2dbench compress-7zip libreoffice unpack-linux stream blogbench cassandra pybench sysbench intel-mpi openssl stress-ng apache c-ray supertuxkart tinymembench ramspeed 
+
+gl-vs-vk
+
  
