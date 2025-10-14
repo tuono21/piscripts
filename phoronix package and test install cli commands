@@ -1,0 +1,13 @@
+Raspios 11 (bullseye) 64
+
+;package installs after phoronix
+sudo apt install php-dom php-zip php-gd php-posix php-curl php-fpdf
+
+libreoffice
+
+
+
+;phoronix test installs
+
+sudo phoronix-test-suite batch-install encode-flac byte primesieve unvanquished j2dbench compress-7zip libreoffice unpack-linux stream blogbench cassandra pybench sysbench intel-mpi openssl stress-ng apache c-ray supertuxkart 
+ 
