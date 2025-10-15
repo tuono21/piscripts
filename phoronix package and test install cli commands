@@ -3,6 +3,8 @@ Raspios 11 (bullseye) 64
 ;package installs after phoronix
 sudo apt install php-dom php-zip php-gd php-posix php-curl php-fpdf
 
+php-xml  ;32bit bullseye
+
 libreoffice
 
 
