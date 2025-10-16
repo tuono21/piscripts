@@ -5,6 +5,8 @@ sudo apt install php-dom php-zip php-gd php-posix php-curl php-fpdf
 
 php-xml  ;32bit bullseye
 
+php-cli php-xml ;ubuntu 22 x64
+
 libreoffice
 
 
