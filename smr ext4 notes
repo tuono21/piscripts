@@ -1,0 +1,13 @@
+create ext4 with SMR speedup Extended option and prereq
+
+time sudo mkfs.ext4 -E packed_meta_blocks=1 -O flex_bg -m 0 -L SeaFire_1TB-SMR -v /dev/sda1
+ 
+sudo dumpe2fs -h /dev/sda1
+
+
+watch drive speed and utilization
+
+iostat -xh sda 10
+
+
+
