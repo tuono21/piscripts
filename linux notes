@@ -1,0 +1,2 @@
+sudo reflector --verbose --country 'United States' --score 30 -f 10 --include '.edu' --sort rate --save /etc/pacman.d/mirrorlist
+
