@@ -1,0 +1,5 @@
+ 512  parted -ms ROLE_BookOne_v4.img  unit B print
+  513  sudo losetup -f --show -o 6443499520 ROLE_BookOne_v4.img 
+  514  sudo fsck /dev/loop0
+  515  sudo losetup -d /dev/loop0
+  516  losetup
